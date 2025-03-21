@@ -22,7 +22,7 @@ body {
     font-family: Garamond, Arial, Helvetica, sans-serif;
     width: 70%;
     height: 100%;
-    background: linear-gradient(180deg, #25497E 0%, #000 40%);
+    background: linear-gradient(180deg, #25497E 0%, #000 20%);
     
     
 }
@@ -76,7 +76,7 @@ header {
     text-align: justify;
 }
 
-img {
+#image {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -90,6 +90,30 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: -25px;
+}
+
+.recommended-order {
+
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    margin-top: 50px;
+}
+
+.order {
+    color: #917BCE;
+}
+
+
+.covers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 45px;
+}
+
+.cover {
+    width: 260px; 
+    border-radius: 10px;
 }
 
 footer {
