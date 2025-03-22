@@ -1,0 +1,68 @@
+
+
+/* Media Query para Celulares */
+@media (max-width: 500px) {
+    body {
+        width: 90%; /* Ajusta a largura do body para telas menores */
+    }
+
+    header {
+        padding: 20px 0 40px 0; /* Reduz o padding do header */
+    }
+
+    #title {
+        font-size: 2rem; /* Reduz o tamanho do título */
+    }
+
+    .subtitle {
+        font-size: 1.2rem; /* Reduz o tamanho do subtítulo */
+    }
+
+    .whats-cosmere {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+        gap: 10px; /* Adiciona espaçamento entre os elementos */
+    }
+
+    .whats-cosmere-question {
+        margin-right: 0; /* Remove o espaçamento lateral */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+
+    .whats-cosmere-answer {
+        width: 100%; /* Faz o texto ocupar toda a largura */
+    }
+
+    .covers {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cover {
+        width: 120px; 
+    }
+
+    .secret-projects {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+    }
+
+    .secret-projects-covers {
+        flex-direction: row; /* Empilha as imagens dos projetos */
+        align-items: center; /* Centraliza as imagens */
+        gap: 5px; /* Espaçamento entre as imagens */
+    }
+
+    .secret-cover {
+        width: 150px; /* Reduz o tamanho das imagens dos projetos */
+    }
+
+    .secret-projects-name {
+        display: none;
+    }
+
+    footer {
+        padding-top: 25px; 
+        text-align: center;
+    }
+}
