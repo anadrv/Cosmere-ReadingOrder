@@ -3,29 +3,29 @@
 /* Media Query para Celulares */
 @media (max-width: 500px) {
     body {
-        width: 70%; /* Ajusta a largura do body para telas menores */
+        width: 80%; /* Ajusta a largura do body para telas menores */
     }
     
-    html {
-        overflow: auto; /* Adiciona barra de rolagem */
+    header {
+        padding: 20px 0 40px 0; 
     }
 
-    header {
-        padding: 20px 0 40px 0; /* Reduz o padding do header */
+    main {
+        width: 100%; /* Ajusta a largura do main para telas menores */
     }
 
     #title {
-        font-size: 2rem; /* Reduz o tamanho do título */
+        font-size: 2rem; 
     }
 
     .subtitle {
-        font-size: 1.2rem; /* Reduz o tamanho do subtítulo */
+        font-size: 1.2rem; 
     }
 
     .whats-cosmere {
-        flex-direction: column; /* Empilha os elementos verticalmente */
+        flex-direction: column; 
         align-items: flex-start; /* Alinha os itens à esquerda */
-        gap: 10px; /* Adiciona espaçamento entre os elementos */
+        gap: 10px; 
     }
 
     .whats-cosmere-question {
