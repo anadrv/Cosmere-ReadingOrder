@@ -3,7 +3,7 @@
 /* Media Query para Celulares */
 @media (max-width: 500px) {
     body {
-        width: 80%; /* Ajusta a largura do body para telas menores */
+        width: 90%; /* Ajusta a largura do body para telas menores */
     }
     
     header {
@@ -37,6 +37,10 @@
         width: 100%; /* Faz o texto ocupar toda a largura */
     }
 
+    #img-caption {
+        font-size: 0.8rem;
+    }
+
     .covers {
         flex-direction: column; 
         align-items: center;
@@ -47,23 +51,30 @@
         width: 120px; 
     }
 
-    .secret-projects {
-        flex-direction: column; /* Empilha os elementos verticalmente */
+    .cover-cel {
+        display: block;
     }
 
-    .secret-projects-covers {
-        flex-direction: row; /* Empilha as imagens dos projetos */
-        align-items: center; /* Centraliza as imagens */
-        gap: 5px; /* Espaçamento entre as imagens */
+    .order-content {
+        font-size: 1rem;
     }
+
+    .secret-projects {
+        flex-direction: row; /* Empilha os elementos verticalmente */
+    }
+
 
     .secret-cover {
         width: 150px; /* Reduz o tamanho das imagens dos projetos */
     }
-
-    .secret-projects-name {
+    .yumi-cover {
         display: none;
     }
+
+    .secret-projects-name {
+        margin-left: 10px;
+        font-size: 1.2rem;
+      }
 
     footer {
         padding-top: 25px; 

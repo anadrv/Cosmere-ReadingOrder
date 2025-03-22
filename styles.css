@@ -48,7 +48,7 @@
   }
   
   .whats-cosmere-question {
-    color: #48af25;
+    color: #f8a94d;
     text-align: right;
     font-size: 1.3rem;
     margin-right: 60px;
@@ -96,6 +96,10 @@
     width: 180px;
     border-radius: 10px;
   }
+
+    .cover-cel {
+        display: none;
+    }
   
   .order-content {
     display: flex;
