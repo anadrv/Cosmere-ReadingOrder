@@ -60,9 +60,12 @@
     }
 
     .secret-projects {
-        flex-direction: row; /* Empilha os elementos verticalmente */
+        flex-direction: row;
+  
     }
-
+    .secret-projects-covers {
+        gap: 5px;
+    }
 
     .secret-cover {
         width: 150px; /* Reduz o tamanho das imagens dos projetos */
@@ -70,6 +73,7 @@
     .yumi-cover {
         display: none;
     }
+
 
     .secret-projects-name {
         margin-left: 10px;
