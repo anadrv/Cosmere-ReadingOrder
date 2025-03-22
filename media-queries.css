@@ -3,7 +3,11 @@
 /* Media Query para Celulares */
 @media (max-width: 500px) {
     body {
-        width: 90%; /* Ajusta a largura do body para telas menores */
+        width: 70%; /* Ajusta a largura do body para telas menores */
+    }
+    
+    html {
+        overflow: auto; /* Adiciona barra de rolagem */
     }
 
     header {
