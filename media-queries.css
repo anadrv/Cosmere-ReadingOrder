@@ -3,7 +3,7 @@
 /* Media Query para Celulares */
 @media (max-width: 500px) {
     body {
-        width: 90%; /* Ajusta a largura do body para telas menores */
+        width: 90%; 
     }
     
     header {
@@ -11,7 +11,7 @@
     }
 
     main {
-        width: 100%; /* Ajusta a largura do main para telas menores */
+        width: 100%; 
     }
 
     #title {
@@ -24,17 +24,17 @@
 
     .whats-cosmere {
         flex-direction: column; 
-        align-items: flex-start; /* Alinha os itens à esquerda */
+        align-items: flex-start; 
         gap: 10px; 
     }
 
     .whats-cosmere-question {
-        margin-right: 0; /* Remove o espaçamento lateral */
-        text-align: left; /* Alinha o texto à esquerda */
+        margin-right: 0; 
+        text-align: left; 
     }
 
     .whats-cosmere-answer {
-        width: 100%; /* Faz o texto ocupar toda a largura */
+        width: 100%; 
     }
 
     #img-caption {
@@ -64,11 +64,11 @@
   
     }
     .secret-projects-covers {
-        gap: 5px;
+        gap: 3px;
     }
 
     .secret-cover {
-        width: 150px; /* Reduz o tamanho das imagens dos projetos */
+        width: 150px; 
     }
     .yumi-cover {
         display: none;
@@ -76,8 +76,8 @@
 
 
     .secret-projects-name {
-        margin-left: 10px;
-        font-size: 1.2rem;
+        margin-left: 8px;
+        font-size: 1.1rem;
       }
 
     footer {
