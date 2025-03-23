@@ -85,3 +85,92 @@
         text-align: center;
     }
 }
+
+/* Media Query para Tablets */
+@media (min-width: 501px) and (max-width: 1024px) {
+    body {
+    width: 85%;
+    }
+    
+    #title {
+        font-size: 2.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.4rem;
+    }
+    
+    .cover {
+        width: 150px;
+    }
+
+    .covers {
+  
+        justify-content: space-between;
+    }
+    
+    .secret-cover {
+        width: 180px;
+    }
+    
+    .order-content {
+        font-size: 1.1rem;
+    }
+    
+    }
+    
+    /* Media Query para Desktops Pequenos */
+    @media (min-width: 1025px) and (max-width: 1440px) {
+    body {
+    width: 80%;
+    }
+    
+    #title {
+        font-size: 3rem;
+    }
+    
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .cover {
+        width: 180px;
+    }
+    
+    .secret-cover {
+        width: 200px;
+    }
+    
+    .order-content {
+        font-size: 1.2rem;
+    }
+    
+    }
+    
+    /* Media Query para Desktops Grandes */
+    @media (min-width: 1441px) {
+    body {
+    width: 75%;
+    }
+    
+    #title {
+        font-size: 3.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.8rem;
+    }
+    
+    .cover {
+        width: 220px;
+    }
+    
+    .secret-cover {
+        width: 250px;
+    }
+    
+    .order-content {
+        font-size: 1.3rem;
+    }
+    
+    }
