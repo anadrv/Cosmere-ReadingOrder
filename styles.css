@@ -1,3 +1,4 @@
+/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +7,27 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
+
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   margin: 0 auto;
   background-color: black;
   color: #f5f5f5;
   font-family: Garamond, Arial, Helvetica, sans-serif;
-  width: 70%;
-  height: 100%;
+  max-width: 70%;
+  width: 100%;
+  min-height: 100vh;
   background: linear-gradient(180deg, #25497e 0%, #121212 20%);
+}
+
+main {
+  flex: 1;
 }
 
 header {
@@ -77,6 +84,7 @@ header {
   grid-template-columns: auto 1fr;
   align-items: stretch;
   margin-top: 50px;
+
 }
 
 .order {
@@ -87,8 +95,9 @@ header {
 .covers {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   padding-right: 45px;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .cover {
@@ -121,6 +130,7 @@ header {
 .secret-projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .secret-projects-covers {
@@ -143,12 +153,14 @@ header {
 }
 
 footer {
-  position: relative;
-  width: 100vw;
-  background: linear-gradient(0deg, #46181b 0%, #121212 100%);
+
+  width: 100%; 
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+
 }
 
 .footer-content {
